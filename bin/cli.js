@@ -12,7 +12,7 @@ const runCommand = (command) => {
 };
 
 const repoName = process.argv[2];
-const gitCheckoutCommandWeb = `cd ${repoName} && git clone --depth=1 git@github.com:mjmcgrath2010/react-app-webpack-5-template.git ${repoName}`;
+const gitCheckoutCommandWeb = `git clone --depth=1 git@github.com:mjmcgrath2010/react-app-webpack-5-template.git ${repoName}`;
 const installCheckoutCommandWeb = `cd ${repoName} && yarn --silent`;
 
 /**
